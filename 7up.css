@@ -1,0 +1,211 @@
+@font-face{
+    font-family: 'korolev-rounded';
+    src: url(fonnts.com-Korolev_Rounded_Heavy.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    padding: 1rem;
+    background: #00ae44;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    border-bottom:  solid 1px #fff;
+
+}
+.right a{
+    font-size: 32px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.right img{
+    margin-left: 10px;
+}
+
+.fullbody{
+    width: 100%;
+    margin: 2;
+}
+/* .section-2{
+position: absolute;
+    top: 33%;
+    left: 9%;
+    color: white;
+    
+
+} */
+.img-1{
+    width: 100%;
+}
+.POSITIVELY{
+    text-transform: uppercase;
+    font-family: 'korolev-rounded';
+    font-size: 5.5vw;
+    color: #fff;
+    font-weight: 800;
+    margin-top: -35rem;
+    margin-left: 10rem;
+    margin-bottom: 30px;
+}
+.button-banner{
+    margin-left: 172px;
+    margin-top: -100px;
+background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    font-family: 'korolev';
+    color: #ffff;
+}
+.section-3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+.section-3 img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 20%;
+    left: 0;
+}
+.RECIPEShead{
+    text-align: center;
+    z-index: 2;
+    padding: 29px 153px;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    margin-top: 500px;
+}
+.RECIPES{
+    text-transform: uppercase;
+    font-family: 'korolev';
+    color: #fff;
+    font-size: 50px;
+    
+}
+.bake{
+    margin-bottom: 30px;
+    margin-top: -30px;
+    font-family: 'korolev';
+    font-size: 25px;
+    line-height: 2.8vh;
+    padding: 6px 25px;
+    color: #fff;
+
+}
+.Recipes{
+background: transparent;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-size: 15px;
+    color: white;
+    font-size: 28px;
+    font-family: 'korolev';
+}
+
+
+.section-4{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+.section-4 img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 20%;
+    left: 0;
+}
+.STORELOCATORhead{
+    text-align: center;
+    z-index: 2;
+    padding: 29px 80px;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    margin-top: 500px;
+}
+.STORELOCATOR{
+    text-transform: uppercase;
+    font-family: 'korolev';
+    color: #fff;
+    font-size: 50px;
+    
+}
+.favorite{
+    margin-bottom: 30px;
+    margin-top: -30px;
+    font-family: 'korolev';
+    font-size: 25px;
+    line-height: 2.8vh;
+    padding: 6px 25px;
+    color: #fff;
+}
+.Products{
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-size: 15px;
+    color: white;
+    font-size: 28px;
+    font-family: 'korolev';   
+}
+
+
+
+    footer {
+        
+        margin-top: 200px;
+        padding: 4.3rem;
+        display: flex;
+        z-index: 100;
+        background: #3e3e3e;
+        font-family: 'korolev';
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footerlist{
+        font-size: 20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+gap: 30px;
+margin-top: -55px;
+    }
+    .footerlist2{
+        font-size: 17px;
+        color: #fff;
+        margin-top: 30px;
+    }
